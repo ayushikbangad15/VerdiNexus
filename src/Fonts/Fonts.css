@@ -1,0 +1,15 @@
+@font-face {
+    font-family:"dmsans" ;
+    src: url('../assets/static/DMSans-Medium.ttf'),
+            url('../assets/DMSans-VariableFont_opsz\,wght.ttf') format("font2"),
+          
+
+}
+@font-face {
+    font-family:"italic" ;
+    src: url('../assets/static/DMSans-italic.ttf') 
+          
+
+}
+
+
