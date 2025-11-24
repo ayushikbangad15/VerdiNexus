@@ -3,6 +3,9 @@ import { useTranslation } from 'react-i18next';
 import ImageSlider from './ImageSlider';
 import { motion } from 'framer-motion';
 import About from '../Pages/About';
+import exist from '../assets/exist.png';
+import vision from '../assets/vision.jpg';
+import whovr from '../assets/whovr.jpg';
 
 const FoldingScroller = () => {
   const { t } = useTranslation();
@@ -39,7 +42,7 @@ const FoldingScroller = () => {
           >
             <img
               className='rounded-xl'
-              src="src\assets\images\who we are.jpg"
+              src={whovr}
               alt=""
             />
           </motion.div>
@@ -57,7 +60,7 @@ const FoldingScroller = () => {
           >
             <img
               className='rounded-xl'
-              src="src\assets\images\vision.jpg"
+              src={vision}
               alt=""
             />
           </motion.div>
@@ -112,7 +115,7 @@ const FoldingScroller = () => {
           >
             <img
               className='rounded-xl'
-              src="src\assets\images\exist.png"
+              src={exist}
               alt=""
             />
           </motion.div>
